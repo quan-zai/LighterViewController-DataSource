@@ -18,6 +18,8 @@
 		C361D77E1DE688A500A6C9D7 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C361D77D1DE688A500A6C9D7 /* ArrayDataSource.m */; };
 		C375A9C11DE83263002BED14 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C375A9BF1DE83263002BED14 /* TableViewCell.m */; };
 		C375A9C21DE83263002BED14 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C375A9C01DE83263002BED14 /* TableViewCell.xib */; };
+		C375A9C51DE83BDD002BED14 /* TableViewCell+ConfigureForPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C375A9C41DE83BDD002BED14 /* TableViewCell+ConfigureForPhoto.m */; };
+		C375A9C81DE83C64002BED14 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = C375A9C71DE83C64002BED14 /* Photo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,10 @@
 		C375A9BE1DE83263002BED14 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		C375A9BF1DE83263002BED14 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		C375A9C01DE83263002BED14 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		C375A9C31DE83BDD002BED14 /* TableViewCell+ConfigureForPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TableViewCell+ConfigureForPhoto.h"; sourceTree = "<group>"; };
+		C375A9C41DE83BDD002BED14 /* TableViewCell+ConfigureForPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TableViewCell+ConfigureForPhoto.m"; sourceTree = "<group>"; };
+		C375A9C61DE83C64002BED14 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		C375A9C71DE83C64002BED14 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				C361D7501DE6873900A6C9D7 /* ViewController.m */,
 				C375A9BE1DE83263002BED14 /* TableViewCell.h */,
 				C375A9BF1DE83263002BED14 /* TableViewCell.m */,
+				C375A9C31DE83BDD002BED14 /* TableViewCell+ConfigureForPhoto.h */,
+				C375A9C41DE83BDD002BED14 /* TableViewCell+ConfigureForPhoto.m */,
+				C375A9C61DE83C64002BED14 /* Photo.h */,
+				C375A9C71DE83C64002BED14 /* Photo.m */,
 				C375A9C01DE83263002BED14 /* TableViewCell.xib */,
 				C361D7521DE6873900A6C9D7 /* Main.storyboard */,
 				C361D7551DE6873900A6C9D7 /* Assets.xcassets */,
@@ -290,9 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C375A9C81DE83C64002BED14 /* Photo.m in Sources */,
 				C361D7511DE6873900A6C9D7 /* ViewController.m in Sources */,
 				C361D74E1DE6873900A6C9D7 /* AppDelegate.m in Sources */,
 				C361D77E1DE688A500A6C9D7 /* ArrayDataSource.m in Sources */,
+				C375A9C51DE83BDD002BED14 /* TableViewCell+ConfigureForPhoto.m in Sources */,
 				C375A9C11DE83263002BED14 /* TableViewCell.m in Sources */,
 				C361D74B1DE6873900A6C9D7 /* main.m in Sources */,
 			);
